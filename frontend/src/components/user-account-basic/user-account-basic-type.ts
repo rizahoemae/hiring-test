@@ -10,7 +10,7 @@ export type UserAccountBasicProps = {
   id: number;
   name: string;
   email: string;
-  role: string;
+  role: number;
   systemAccess: boolean;
   lastLogin: string;
 };
